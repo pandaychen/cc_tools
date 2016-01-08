@@ -92,13 +92,6 @@ def LoadCookiesConf():
         cookies[tlist[0]] = '='.join(tlist[1:])
 
     return cookies
-"""
-def importdata(self):
-    self.data = {}
-    for i in self.readfile('data.txt').split('&'):
-        t = i.strip().split('=')
-        self.data[t[0]] = '='.join(t[1:])
-"""
 
 def LoadUrlConf():
     urls = []
